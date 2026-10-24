@@ -1,0 +1,13 @@
+├── config/              → Konfigurasi database
+├── controllers/         → Logika kontrol (AuthController.php)
+├── models/              → Kelas untuk manipulasi data (User.php)
+├── views/
+│   ├── auth/            → Halaman login
+│   ├── admin/           → Dashboard admin + tabel user
+│   └── user/            → Dashboard user + card jalur
+├── public/assets/       → CSS, JS
+
+
+buatkan saya projek php tentang pendakian menguunakan opp dan database terdapat login, di login ini terdapat 2 cabang 1. login sebagai admin dan 2. login sebagai user, untuk login sebagai admin maka dasbord admin, dan login sebagai user maka dasbor berbeda. untuk dasbord admin menampilakan(navbar bagian kiri(bisa di buka dab tutup interaktif dan animasi) terdapat fitur : dasbord (isi data seperti jumlah pendakian, user, bar chart di bawah dan tabel user(nama, alamat, email, usia, jalur, jumlah pendakian) terdapat juga tomboh edit dan delet. setelah nabaer terdapat fitur "update" untuk fitur ini berisi from yang menyambung ke dasbor user, fitur ini akan menambahkan jalur dan nonktifkan jalur di dasbor user. terdapat tombol logout.))
+
+untuk dasbord user terdapat card jalur pendakian dan ketika card di klik akan menampilkan from pendakian, nah ketiak user telah mengisi data dari form makan data dari user akan tampil di tabel admin/darsbord admin. buatkan saya progarmnya

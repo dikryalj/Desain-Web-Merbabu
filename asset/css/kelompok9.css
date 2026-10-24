@@ -1,0 +1,87 @@
+.welcome-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.main-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+.typing {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black;
+  animation: blink 0.7s infinite step-end;
+}
+
+.contentt {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contentt img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.contentt .thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.contentt .thumbnail {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.contentt .thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.table-container {
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.isi-formm h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10%;
+  
+}
+
+
+
+/* jalur pendakian */
+.from {
+  padding: 15%;
+  background-color: white;
+  border-radius: 10px;
+
+}
+.isi-form h2 {
+  color: black;
+  text-align: center;
+  padding-bottom: 10%;
+  
+}
+
